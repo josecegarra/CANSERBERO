@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     block-size: border-box;
+    border: 1px solid red;
 }
 
 .nav-bar1 {
@@ -31,7 +32,7 @@ nav div ul {
     list-style: none;
     display: flex;
     gap: 35px;
-    margin-right: 190px;
+    /*margin-right: 190px;*/
 }
 
 nav div ul li a {
@@ -39,35 +40,35 @@ nav div ul li a {
     text-decoration: none;
 }
 
+/* Main Index */
 .Container-1 {
     background-color: #000000;
     color: rgb(255, 255, 255);
     font-family: "Poppins", sans-serif;
     font-size: 20px;
     display: flex;
-    flex-wrap: nowrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /*flex-wrap: wrap;*/
     align-items: center;
-}
-
-.Container-1 img {
-    width: 700px;
-    height: 750px;
-    padding-right: 220px;
+    padding-top: 60px;
 }
 
 .texto-1 {
-    width: 70%;
+    width: 80%;
     text-align: justify;
-    padding-left: 220px;
-    margin-top: 5px;
     padding-bottom: 100px;
+    padding-left: 220px;
+    
 }
 
-.subtitulo {
-    margin: 220px;
-    margin-bottom: 5px;
-    margin-top: 130px;
-    background-color: black;
+.Container-1 img {
+    width: 600px;
+    height: 750px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    object-fit: cover;
+    
 }
 
 .pie {
@@ -96,11 +97,10 @@ nav div ul li a {
 
 /* Biografia */
 
-main h1 {
+main h2 {
     background-color: #000000;
     color: white;
     padding-top: 80px;
-    padding-left: 220px;
     font-size: 40px;
     font-family: "Poppins", sans-serif;
     font-weight: bold;
