@@ -9,34 +9,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;0,800;1,100&display=swap"
         rel="stylesheet">
     <title>CANSERBERO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <header>
-        <nav class="nav-bar1">
-            <a class="nav-bar2" href="index.html">
-                <h1>CANSERBERO</h1>
-            </a>
-            <!-- Navbar-->
-            <div>
-                <ul>
-                    <li>
-                        <a href="index.html">INICIO</a>
-                    </li>
-                    <li>
-                        <a href="./pages/biografia.html">BIOGRAFIA</a>
-                    </li>
-                    <li>
-                        <a href="./pages/discografia.html">DISCOGRAFIA</a>
-                    </li>
-                    <li>
-                        <a href="./pages/galeria.html">GALERIA</a>
-                    </li>
-                    <li>
-                        <a href="./pages/arte.html">ARTE</a>
-                    </li>
-                </ul>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#index.html">CANSERBERO</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon menu-img"></span>
+                </button>
+                <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/biografia.html">BIOGRAFIA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/discografia.html">DISCOGRAFIA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/galeria.html">GALERIA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/arte.html">ARTE</a>
+                        </li>
+                </div>
             </div>
         </nav>
     </header>
@@ -44,7 +49,7 @@
     <main>
         <h2> Tyrone José Gonzélez Orama </h2>
         <div class="Container-1">
-            <p class="texto-1">Canserbero fue un rapero venezolano nacido el 11 de marzo de 1988 en Caracas. Es
+            <p>Canserbero fue un rapero venezolano nacido el 11 de marzo de 1988 en Caracas. Es
                 reconocido por sus letras profundas y reflexivas, así como por su estilo único que combinaba rap con
                 elementos de rock y reggae. Comenzó su carrera en la música a una edad temprana, participando en
                 batallas de rap y eventos locales. Ganó reconocimiento en la escena underground de Venezuela gracias
@@ -55,8 +60,7 @@
                 "Epílogo". Su segundo álbum; "Guía para la acción", fue lanzado en 2008 pero fueron sus albumes
                 "Vida" y
                 "Muerte" que lo consolidaron como uno de los raperos más influyentes de habla hispana.</p>
-                <img src="img/can-13.webp" alt="">
-        </div>
+            <img class="primera-img" src="img/can-13.webp" alt="Can">
         </div>
     </main>
     <footer class="pie">
@@ -65,7 +69,7 @@
             <p>All we need is love</p>
             <p>Copyright© | Jose Cegarra</p>
         </div>
-        <div>
+        <div class="rrss">
             <a href="https://www.instagram.com/elcanserbero/" target="_blank"><img src="./img/instagram-withe.svg"
                     alt="instagram"></a>
             <a href="https://www.facebook.com/elcanserbero" target="_blank"><img src="./img/facebook-white.svg"
@@ -74,6 +78,9 @@
                     alt="youtube"></a>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
