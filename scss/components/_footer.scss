@@ -1,0 +1,22 @@
+/* Pie todos */
+.pie {
+    font-family: "Poppins", sans-serif;
+    background-color: $color-principal;
+    padding: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 200px;
+    .texto-f {
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-size: 10px;
+        margin-left: 190px;
+    }
+    div {
+        a {
+            margin-right: 10px;
+            flex-wrap: wrap;
+        }
+    }
+}

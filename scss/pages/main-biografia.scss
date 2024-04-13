@@ -1,0 +1,43 @@
+/* Biografia */
+.container-bio-1 {
+    background-color: $color-segundario;
+    display: flex;
+    padding-top: 40px;
+    align-items: center;
+
+    img {
+        height: 600px;
+        margin-right: 20px;
+        margin-left: 150px;
+        object-fit: cover;
+    }
+
+    p {
+        padding-right: 200px;
+        color: $color-text;
+        font-family: "Poppins", sans-serif;
+        text-align: justify;
+    }
+}
+
+.container-bio-2 {
+    background-color: $color-segundario;
+    display: flex;
+    padding-top: 40px;
+    align-items: center;
+
+    img {
+        width: 550px;
+        height: 700px;
+        margin-left: 20px;
+        margin-right: 150px;
+        object-fit: cover;
+    }
+
+    p {
+        padding-left: 200px;
+        color: $color-text;
+        font-family: "Poppins", sans-serif;
+        text-align: justify;
+    }
+}

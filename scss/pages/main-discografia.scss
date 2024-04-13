@@ -1,0 +1,29 @@
+/* Discografia */
+main {
+    h3 {
+        @extend %estilos;
+        padding-left: 260px;
+        padding-top: 20px;
+        font-weight: bold;
+        font-size: 30px;
+        margin: 0;
+    }
+    section {
+        background-color: $color-segundario;
+        padding-top: 50px;
+    }
+    .album123 {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 500px;
+        gap: 40px;
+        padding-bottom: 40px;
+    }
+    .album456 {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 500px;
+        gap: 40px;
+        padding-bottom: 40px;
+    }
+}

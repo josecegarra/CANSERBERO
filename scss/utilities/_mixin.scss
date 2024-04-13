@@ -1,0 +1,11 @@
+@mixin flex ($aling-items) {
+    display: flex;
+    align-items: $aling-items;
+    flex-wrap: wrap;
+}
+
+@mixin medidas ($width, $height, $font-size) {
+    width: 40%;
+    height: 100%;
+    font-size: 20px;
+}
